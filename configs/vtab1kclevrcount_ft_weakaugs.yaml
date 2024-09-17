@@ -1,0 +1,4 @@
+defaults:
+    dataset: 'datasets/vtab1kclevrcount.yaml'
+    settings: 'settings/ft.yaml'
+    augs: 'augs/weakaugs.yaml'

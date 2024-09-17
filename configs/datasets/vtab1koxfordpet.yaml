@@ -1,0 +1,10 @@
+dataset_name: 'vtab1koxfordpet'
+dataset_root_path: '../../data/vtab/vtab-1k/oxford_iiit_pet/'
+df_train: 'train.csv'
+df_trainval: train_val.csv
+df_val: 'val.csv'
+df_test: 'test.csv'
+folder_train: '.'
+folder_val: '.'
+folder_test: '.'
+df_classid_classname: False

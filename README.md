@@ -8,15 +8,15 @@ transfer-learning setting:
 
 ![](./assets/overview.png)
 
+This is to alleviate the attention collapse issue observed for ViTs 
+in UFGIR datasets with the PETL settings:
+
+![](./assets/cka_attn_soyageing_vanilla_vs_ila.png)
+
 Our method obtains favorable results across ten ultra-fine-grained image recognition
 (UFGIR) datasets:
 
 ![](./assets/table_sota.png)
-
-We incorporate spatial down-sampling to alleviate the attention collapse issue
-observed in ViTs in the PETL setting:
-
-![](./assets/cka_attn_soyageing_vanilla_vs_ila.png)
 
 Also, our method achieves a superior accuracy vs cost (in terms of total
 trainable parameters and FLOPs) trade-off compared to alternatives.

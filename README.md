@@ -1,6 +1,6 @@
 # Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition
 
-Official Pytorch code for the paper: [Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition](https://arxiv.org/abs/2409.).
+Official Pytorch code for the paper: [Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition](https://arxiv.org/abs/2409.11051).
 
 We propose a novel down-sampling adapter module inserted in between transformer
 encoder layers to adapt and down-sample features in the parameter-efficient
@@ -85,14 +85,15 @@ python -u tools/vis_dfsm.py --batch_size 8 --vis_cols 8 --vis_mask rollout_0_4 -
 
 # Citation
 If you find our work helpful in your research, please cite it as:
+
 ```
-Pending
+[1] E. A. Rios, F. Oyerinde, M.-C. Hu, and B.-C. Lai, “Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition,” Sep. 17, 2024, arXiv: arXiv:2409.11051. doi: 10.48550/arXiv.2409.11051.
 ```
 
 # Acknowledgements
 We thank NYCU's HPC Center and National Center for High-performance Computing (NCHC) for providing computational and storage resources. 
 
-We thank the authors of [TransFG](https://github.com/TACJu/TransFG), [FFVT](https://github.com/Markin-Wang/FFVT), [SimTrans](https://github.com/PKU-ICST-MIPL/SIM-Trans_ACMMM2022), [CAL](https://github.com/raoyongming/CAL), [MPN-COV](https://github.com/jiangtaoxie/MPN-COV), [VPT](https://github.com/KMnP/vpt), [VQT](https://github.com/andytu28/VQT), [ConvPass](https://github.com/JieShibo/PETL-ViT/tree/main/convpass) and [timm](https://github.com/huggingface/pytorch-image-models/) for providing implementations for comparison.
+We thank the authors of [TransFG](https://github.com/TACJu/TransFG), [FFVT](https://github.com/Markin-Wang/FFVT), [SimTrans](https://github.com/PKU-ICST-MIPL/SIM-Trans_ACMMM2022), [CAL](https://github.com/raoyongming/CAL), [MPN-COV](https://github.com/jiangtaoxie/MPN-COV), [VPT](https://github.com/KMnP/vpt), [VQT](https://github.com/andytu28/VQT), [ConvPass](https://github.com/JieShibo/PETL-ViT/tree/main/convpass) and [timm](https://github.com/huggingface/pytorch-image-models/) for providing implementations for comparison. We also thank the authors of the [Ultra-FGVC](https://github.com/XiaohanYu-GU/Ultra-FGVC) datasets.
 
 Also, [Weight and Biases](https://wandb.ai/) for their platform for experiment management.
  

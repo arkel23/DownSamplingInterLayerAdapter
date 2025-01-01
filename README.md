@@ -1,6 +1,7 @@
 # Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition
 
-Official Pytorch code for the paper: [Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition](https://arxiv.org/abs/2409.11051).
+Official Pytorch code for the paper: [Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition](https://arxiv.org/abs/2409.11051) published in 
+ECCV 2024 Workshop on Efficient Deep Learning for Foundation Models (EFM).
 
 We propose a novel down-sampling adapter module inserted in between transformer
 encoder layers to adapt and down-sample features in the parameter-efficient
@@ -87,7 +88,18 @@ python -u tools/vis_dfsm.py --batch_size 8 --vis_cols 8 --vis_mask rollout_0_4 -
 If you find our work helpful in your research, please cite it as:
 
 ```
-[1] E. A. Rios, F. Oyerinde, M.-C. Hu, and B.-C. Lai, “Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition,” Sep. 17, 2024, arXiv: arXiv:2409.11051. doi: 10.48550/arXiv.2409.11051.
+@misc{rios_down-sampling_2024,
+	title = {Down-{Sampling} {Inter}-{Layer} {Adapter} for {Parameter} and {Computation} {Efficient} {Ultra}-{Fine}-{Grained} {Image} {Recognition}},
+	doi = {10.48550/arXiv.2409.11051},
+	url = {http://arxiv.org/abs/2409.11051},
+	publisher = {arXiv},
+	author = {Rios, Edwin Arkel and Oyerinde, Femiloye and Hu, Min-Chun and Lai, Bo-Cheng},
+	month = sep,
+	year = {2024},
+	note = {arXiv:2409.11051 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, I.2, I.4},
+	annote = {Comment: Accepted to ECCV 2024 Workshop on Efficient Deep Learning for Foundation Models (EFM). Main: 13 pages, 3 figures, 2 tables. Appendix: 3 pages, 1 table. Total: 16 pages, 3 figures, 4 tables},
+}
 ```
 
 # Acknowledgements
